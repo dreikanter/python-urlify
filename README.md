@@ -10,6 +10,10 @@ Installation:
 pip install -e git+git://github.com/dreikanter/python-urlify#egg=python-urlify
 ```
 
+Some usage examples:
+
+![](http://d.pr/i/BfYs+)
+
 Alternative implementations:
 
 - https://gist.github.com/Paaskehare/3936118 — a very close implementation to the original JavaScript version.
