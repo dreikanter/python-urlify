@@ -56,6 +56,6 @@ Alternative implementations:
 - https://github.com/beastaugh/urlify — Ruby version.
 - [urlify.js](https://github.com/django/django/blob/master/django/contrib/admin/static/admin/js/urlify.js) — original JavaScript implementation released under GNU license.
 
-Copyright &copy; 2013 by [Alex Musayev](http://alex.musayev.com).  
+Copyright &copy; 2014 by [Alex Musayev](http://alex.musayev.com).  
 License: [MIT](http://opensource.org/licenses/MIT).  
 Project home: [https://github.com/dreikanter/python-urlify](https://github.com/dreikanter/python-urlify).
