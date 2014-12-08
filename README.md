@@ -12,7 +12,42 @@ pip install -e git+git://github.com/dreikanter/python-urlify#egg=python-urlify
 
 Some usage examples:
 
-![](http://d.pr/i/BfYs+)
+``` python
+from urlify import urlify
+
+urlify('"Fix, Schwyz!" quäkt Jürgen blöd vom Paß')
+# 'fix-schwyz-quakt-jurgen-blod-vom-pass'
+
+urlify('Muļķa hipiji mēģina brīvi nogaršot celofāna žņaudzējčūsku')
+# 'mulka-hipiji-megina-brivi-nogarsot-celofana-znaudzejcusk'
+
+urlify('Høj bly gom vandt fræk sexquiz på wc.')
+# 'hoj-bly-gom-vandt-fraek-sexquiz-pa-wc'
+
+urlify('Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!')
+# 'chuyesh-yih-docyu-ga-kumedna-zh-ti-proschajsya-bez-golfiv'
+
+urlify('Pack my box with five dozen liquor jugs.')
+# 'pack-my-box-five-dozen-liquor-jugs'
+
+urlify('Τάχιστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός')
+# 'taxisth-alwph3-bafhs-pshmenh-gh-draskelizei-yper-nw8roy-kynos'
+
+urlify('Sveiki pasaulē!')
+# 'sveiki-pasaule'
+
+urlify('Pójdźże, kiń tę chmurność w głąb flaszy!')
+# 'pojdzze-kin-te-chmurnosc-w-glab-flaszy'
+
+urlify('Příšerně žluťoučký kůň úpěl ďábelské ódy.')
+# 'priserne-zlutoucky-kun-upel-dabelske-ody'
+
+urlify('Põdur Zagrebi tšellomängija-följetonist Ciqo külmetas kehvas garaažis')
+# 'podur-zagrebi-tsellomangija-foljetonist-ciqo-kulmetas-kehvas-garaazis'
+
+urlify('A grama é amarga')
+# 'grama-e-amarga'
+```
 
 Alternative implementations:
 
